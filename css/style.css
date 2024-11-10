@@ -31,7 +31,7 @@ body{
 
 header{
     position: fixed;
-    background-color: #690027;
+    background-image: linear-gradient(to bottom, #690027, #31131d);
     top: 0;
     left: 0;
     padding: 1.1rem;
@@ -56,3 +56,13 @@ header nav a{
     transition: 0.4s;
     border: solid 1px black;
 }
+
+header nav a:hover{
+    color: white;
+}
+
+section{
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+}
+
